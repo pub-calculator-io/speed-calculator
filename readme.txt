@@ -13,6 +13,8 @@ The speed calculator helps find speed, distance, time using the formulas d=st, s
 
 The speed calculator helps find speed, distance, time using the formulas d=st, s=d/t, t=d/s. Easy to use and intuitive speed calculator.
 
+[Speed Calculator Homepage](https://www.calculator.io/speed-calculator/ "Speed Calculator Homepage")
+
 __Shortcode__
 
 Use the Speed Calculator shortcode:
