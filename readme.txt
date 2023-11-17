@@ -1,6 +1,6 @@
 === Speed Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: speed calculator, distance calculation, time estimation, speed-distance-time formulas, d&#x3D;st formula, s&#x3D;d/t calculation, t&#x3D;d/s calculation, intuitive speed calculations, physics applications, motion analysis
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
