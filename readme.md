@@ -1,4 +1,4 @@
-# Speed Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Speed Calculator Widget for WordPress
 
 The speed calculator helps find speed, distance, time using the formulas d=st, s=d/t, t=d/s. Easy to use and intuitive speed calculator.
 
