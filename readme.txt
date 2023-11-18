@@ -1,4 +1,4 @@
-=== Speed Calculator by Calculator.iO ===
+=== Speed Calculator ===
 Contributors: calculatorio
 Tags: speed calculator, distance calculation, time estimation, speed-distance-time formulas, d&#x3D;st formula, s&#x3D;d/t calculation, t&#x3D;d/s calculation, intuitive speed calculations, physics applications, motion analysis
 Requires at least: 5.0
