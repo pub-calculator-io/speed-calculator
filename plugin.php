@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Speed Calculator by www.calculator.io
+Plugin Name: CI Speed calculator
 Plugin URI: https://www.calculator.io/speed-calculator/
 Description: The speed calculator helps find speed, distance, time using the formulas d=st, s=d/t, t=d/s. Easy to use and intuitive speed calculator.
 Version: 1.0.0
