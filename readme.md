@@ -7,7 +7,7 @@ The speed calculator helps find speed, distance, time using the formulas d=st, s
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/speed-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /speed-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Speed Calculator](https://www.calculator.io/speed-calculator/ "Speed Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
