@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Speed Calculato
 == Screenshots ==
 
 1. The Speed Calculator Input Form.
-2. The Speed Calculator Calculation Results.
 
 == Installation ==
 

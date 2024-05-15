@@ -56,7 +56,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="distance" value="120000" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col time-calculator,time-duration-calculator,pace-calculator,velocity-calculator,distance-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -97,7 +97,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="speed" value="35" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col time-calculator,time-duration-calculator,pace-calculator,velocity-calculator,distance-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -177,7 +177,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="time" value="10" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col time-calculator,time-duration-calculator,pace-calculator,velocity-calculator,distance-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -211,13 +211,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -232,11 +234,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Answer</p>
-	<p class="table-cell table-cell--only" id="result">280355.04km or 174133.57mi</p>
+	<p class="table-cell table-cell--only animate" id="result">280355.04km or 174133.57mi</p>
 </div>
 </span>
     </div>

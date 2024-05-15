@@ -141,11 +141,11 @@ function convertHoursToReadable(hours) {
     const seconds = totalSeconds % secondsPerMinute;
 
     let result = [];
-    if (years) result.push(`${years} years`);
-    if (days) result.push(`${days} days`);
-    if (hoursRemaining) result.push(`${hoursRemaining} hours`);
-    if (minutes) result.push(`${minutes} minutes`);
-    if (seconds) result.push(`${seconds} seconds`);
+    if (years) result.push(plural(years, 'years:year:years:years:years:years'));
+    if (days) result.push(plural(days, 'days:day:days:days:days:days'));
+    if (hoursRemaining) result.push(plural(hoursRemaining, 'hours:hour:hours:hours:hours:hours'));
+    if (minutes) result.push(plural(minutes, 'minutes:minute:minutes:minutes:minutes:minutes'));
+    if (seconds) result.push(plural(seconds, 'seconds:second:seconds:seconds:seconds:seconds'));
 
     return result.join(', ');
 }
